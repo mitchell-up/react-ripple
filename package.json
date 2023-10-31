@@ -2,6 +2,7 @@
   "name": "react-simple-ripple",
   "version": "0.0.1",
   "description": "The easy way to give ripple effect on your react ui components.",
+  "repository": "https://github.com/mitchellkim94/react-simple-ripple",
   "main": "dist/bundle.cjs",
   "exports": {
     ".": {
@@ -16,7 +17,7 @@
     "build": "rollup -c"
   },
   "keywords": [],
-  "author": "",
+  "author": "mitchellkim",
   "license": "MIT",
   "devDependencies": {
     "@emotion/react": "^11.11.1",
