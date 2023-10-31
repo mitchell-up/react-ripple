@@ -28,7 +28,8 @@ export default {
         terser(),
         typescript(),
         swc(defineRollupSwcOption({
-            extensions: ['.js', '.jsx', '.ts', '.tsx']
+            extensions: ['.js', '.jsx', '.ts', '.tsx'],
+            sourceMaps: true
         }))
     ],
     external: [
