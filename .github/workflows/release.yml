@@ -17,5 +17,5 @@ jobs:
       - uses: bahmutov/npm-install@v1
       - run: npm run release
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOEKN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
