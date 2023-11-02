@@ -2,7 +2,11 @@
   "name": "react-simple-ripple",
   "version": "0.0.1",
   "description": "The easy way to give ripple effect on your react ui components.",
-  "repository": "https://github.com/mitchellkim94/react-simple-ripple",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mitchellkim94/react-simple-ripple.git"
+  },
+  "privte": "",
   "main": "dist/bundle.cjs",
   "exports": {
     ".": {
@@ -43,5 +47,12 @@
   "peerDependencies": {
     "react": "^16 || ^17 || ^18",
     "react-dom": "^16 || ^17 || ^18"
+  },
+  "bugs": {
+    "url": "https://github.com/mitchellkim94/react-simple-ripple/issues"
+  },
+  "homepage": "https://github.com/mitchellkim94/react-simple-ripple#readme",
+  "directories": {
+    "example": "example"
   }
 }
