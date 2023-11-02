@@ -2,6 +2,8 @@
 
 #### ⚠️ Pushed to `main`
 
+- chore: package name changed (mitchellkim94@icloud.com)
+- chore: package updated (mitchellkim94@icloud.com)
 - chore: Update release.yml ([@mitchellkim94](https://github.com/mitchellkim94))
 - chore: workflow modified ([@mitchellkim94](https://github.com/mitchellkim94))
 - chore: added typo ([@mitchellkim94](https://github.com/mitchellkim94))
@@ -16,6 +18,7 @@
 - chore: .gitignore added ([@mitchellkim94](https://github.com/mitchellkim94))
 - Initial commit ([@mitchellkim94](https://github.com/mitchellkim94))
 
-#### Authors: 1
+#### Authors: 2
 
+- mitchellkim94 (mitchellkim94@icloud.com)
 - 김명철 ([@mitchellkim94](https://github.com/mitchellkim94))
