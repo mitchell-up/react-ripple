@@ -9,8 +9,6 @@ import {
 } from 'react'
 import { css } from '@emotion/react'
 
-type RippleEffectContainerProps = PropsWithChildren
-
 const rippleEffectArea = css`
     position: absolute;
     top: 0;
