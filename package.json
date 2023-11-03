@@ -1,6 +1,6 @@
 {
   "name": "@mitchellkim/react-ripple",
-  "version": "0.0.3",
+  "version": "0.0.11",
   "description": "The easy way to give ripple effect on your react ui components.",
   "repository": {
     "type": "git",
