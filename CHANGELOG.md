@@ -1,3 +1,18 @@
+# v0.0.4 (Fri Nov 03 2023)
+
+#### ⚠️ Pushed to `main`
+
+- chore: workflow typo modified ([@mitchellkim94](https://github.com/mitchellkim94))
+- chore: workflow modified ([@mitchellkim94](https://github.com/mitchellkim94))
+- chore: worflow modified ([@mitchellkim94](https://github.com/mitchellkim94))
+- styel: type deleted ([@mitchellkim94](https://github.com/mitchellkim94))
+
+#### Authors: 1
+
+- 김명철 ([@mitchellkim94](https://github.com/mitchellkim94))
+
+---
+
 # v0.0.3 (Fri Nov 03 2023)
 
 #### ⚠️ Pushed to `main`
