@@ -13,9 +13,9 @@ jobs:
 
       - name: Prepare repository
         run: |
-          git fetch --unshallow --tags
           git config user.name mitchellkim94
           git config user.email mitchellkim94@icloud.com
+          git fetch --unshallow --tags
 
       - uses: actions/setup-node@v3
         with:
