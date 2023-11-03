@@ -16,6 +16,8 @@ jobs:
           git config user.name "mitchellkim94"
           git config user.email "mitchellkim94@icloud.com"
           git fetch --unshallow --tags
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: actions/setup-node@v3
         with:
