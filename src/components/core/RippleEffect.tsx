@@ -7,36 +7,7 @@ import {
     useRef,
     useState,
 } from 'react'
-import { css } from '@emotion/react'
-
-const rippleEffectArea = css`
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    transform: translate3d(0, 0, 0);
-
-    & .ripple {
-        position: absolute;
-        border-radius: 50%;
-        background: red;
-        transform: scale(0);
-        animation: ripple-animation 0.4s ease-in-out;
-    }
-
-    @keyframes ripple-animation {
-        from {
-            transform: scale(0);
-            opacity: 1;
-        }
-        to {
-            transform: scale(4);
-            opacity: 0;
-        }
-    }
-`
+import { ripple, rippleEffectStyle } from './RippleEffect.css'
 
 export const RippleEffect = ({
     containerTarget,
@@ -95,7 +66,7 @@ export const RippleEffect = ({
             circle.style.backgroundColor = color
         }
 
-        circle.classList.add('ripple')
+        circle.classList.add(ripple)
 
         button.appendChild(circle)
 
@@ -104,5 +75,5 @@ export const RippleEffect = ({
         })
     }
 
-    return <span css={rippleEffectArea} onClick={onClick} />
+    return <span className={rippleEffectStyle} onClick={onClick} />
 }
