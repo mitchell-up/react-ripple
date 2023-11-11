@@ -1,6 +1,22 @@
+import { render } from '@testing-library/react'
+import { RippleEffect } from './RippleEffect'
+import { ButtonHTMLAttributes } from 'react'
+
+const Tester: React.FC<ButtonHTMLAttributes<HTMLButtonElement>> = (props) => {
+    return (
+        <button {...props}>
+            <RippleEffect/>
+        </button>
+    )
+}
+
+const renderTester = (props: ButtonHTMLAttributes<HTMLButtonElement>) => {
+    return render(<Tester {...props}/>)
+}
+
 describe('Ripple', () => {
     test('if a component has a RippleEffect inside itself and it is clicked, the ripple effect will appear.', () => {
-
+        
     })
 
     test('if a component is wrapped by RippleEffectContainer and clicked, the ripple effect will appear.', () => {
