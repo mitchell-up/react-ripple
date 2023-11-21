@@ -32,7 +32,7 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
 
-      <button ref={button}>
+      <button ref={button} style={{ position: 'relative' }}>
         버튼입니다.
         <RippleEffect effectTarget={button}/>
       </button>
