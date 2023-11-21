@@ -1,10 +1,8 @@
 import {
     MouseEventHandler,
-    PropsWithChildren,
     RefObject,
     useCallback,
     useEffect,
-    useRef,
     useState,
 } from 'react'
 import { ripple, rippleEffectStyle } from './RippleEffect.css'
@@ -67,6 +65,7 @@ export const RippleEffect = ({
         }
 
         circle.classList.add(ripple)
+        circle.setAttribute('data-testid', 'ripple-effect')
 
         button.appendChild(circle)
 
@@ -75,5 +74,5 @@ export const RippleEffect = ({
         })
     }
 
-    return <span className={rippleEffectStyle} onClick={onClick} />
+    return <span className={rippleEffectStyle} onClick={onClick} data-testid='ripple-container'/>
 }
