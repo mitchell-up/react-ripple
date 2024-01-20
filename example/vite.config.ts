@@ -4,5 +4,9 @@ import { vanillaExtractPlugin } from '@vanilla-extract/vite-plugin'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react(), vanillaExtractPlugin()],
+  plugins: [react({
+    jsxImportSource: '@emotion/react',
+    plugins: [['@swc/plugin-emotion', {}]]
+  }), vanillaExtractPlugin()],
+  
 })
